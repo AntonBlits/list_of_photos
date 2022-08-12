@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   color:rgba(107, 114, 128, 0.75);
+   font-weight: bold;
+   font-family: 'Inter';
+}
+
+.nav a {
+   color:rgba(107, 114, 128, 0.75);
+   text-decoration: none;
+   margin-right: 20px;
+}
+
+.nav a:hover {
+   text-shadow: 2px 2px 2px rgba(107, 114, 128, 0.75);
+}
+
+.logo {
+   margin-left: 30px;
+   font-size: 20px;
+}
